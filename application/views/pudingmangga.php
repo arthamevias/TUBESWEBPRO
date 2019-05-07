@@ -3,7 +3,7 @@
  <head>
   <title>Hoka-Hoka Bento</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/style/regis.css')?>">
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/style/allstyle.css')?>">
 </head>
 
 <body>
@@ -50,7 +50,7 @@
 </section>
 
 <br>
-<!-- ini kode untuk papan Registrasi -->
+<!-- ini kode untuk papan Tentang Kami -->
 <div id="garis"></div>
 <section id="title-cont" class="ttlhome"> 
     <div class="clearfix rope">
@@ -60,108 +60,78 @@
     </div>
     <div class="tentangkami">
         <p class="japan">
-            regis<br>
-            Registrasi
+            メニュー <br>
+            Menu
         </p>
     </div>
 </section>
-
-<section id="konten">
-  <div class="kotaktengah">
-    <div>
-    <p class="text">Jadilah Sahabat HokBen dan Dapatkan Penawaran Khusus!</p>
-    </div>
-    <form accept-charset="utf-8" method="POST" action="<?php echo base_url('index.php/webController/regis_akun_a')?>">
-      <div class="kotakform"> <!-- ini tempat untuk form -->
-        <div class="bagian kiri">
-          <table class="table-regis" width="100%">
-            <tbody>
-              <tr>
-                <td width="30%">Username</td>
-                <td width="70%">
-                  <input class="kotakinput" type="text" value="" name="username" required="required"></input>
-                </td>
-              </tr>
-              <tr>
-                <td width="30%">Kata Sandi</td>
-                <td width="70%"><input class="kotakinput" type="password" value="" name="password" required="required"></input></td>
-              </tr>
-              <tr>
-                <td width="30%">Ulangi Kata Sandi</td>
-                <td width="70%"><input class="kotakinput" type="password" value="" name="ulang" required="required"></input></td>
-              </tr>
-              <tr>
-                <td width="30%">Nama</td>
-                <td width="70%"><input class="kotakinput" type="text" value="" name="nama" required="required"></input></td>
-              </tr>
-              <tr>
-                <td>Email</td>
-                <td><input class="kotakinput" type="email" value="" name="email" required="required"></input></td>
-              </tr>
-              <tr>
-                <td>Telepon</td>
-                <td><input class="kotakinput" type="tel" value="" name="telepon" required="required"></input></td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div class="bagian kiri">
-          <table class="table-regis" width="100%">
-            <tbody>
-              <tr>
-                <td>Kategori Alamat</td>
-                <td>
-                  <input type="text" class="kotakinput" placeholder="contoh: rumah sendiri" value="" name="kategori" required="required"></input>
-                </td>
-              </tr>
-              <tr>
-                <td>Tipe Alamat</td>
-                <td>
-                  <select name="tipe_alamat" required="required">
-                    <option value="Rumah">Rumah</option>
-                    <option value="Apartment">Apartment</option>
-                    <option value="Kantor">Kantor</option>
-                    <option value="Hotel">Hotel</option>
-                  </select>
-                </td>
-              </tr>
-              <tr>
-                <td width="30%">Kota</td>
-                <td width="70%">
-                  <select name="jp_input" class="dropdown">
-                    <option value="Bandung">Bandung</option>
-                    <option value="Bekasi">Bekasi</option>
-                    <option value="Bogor">Bogor</option>
-                    <option value="Cilegon">Cilegon</option>
-                    <option value="Cirebon">Cirebon</option>
-                    <option value="Denpasar">Denpasar</option>
-                    <option value="Depok">Depok</option>
-                    <option value="Jakarta Barat">Jakarta Barat</option>
-                    <option value="Jakarta Pusat">Jakarta Pusat</option>
-                  </select>
-                </td>
-              </tr>
-              <tr>
-                <td>Detail Alamat</td>
-                <td>
-                  <textarea name="address" required="required"></textarea>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-      <input class="btn" type="submit" name="submit" value="Gabung disini"></input>
-    </form>
-    <div>
-    </div>
+<br><br>
+<div class="container">
+  <div class="back">
+    <a href="<?php echo base_url('index.php/webController/allmenu')?>" > << Kembali ke Menu </a>
   </div>
-</section>
+  <div class="row">
+    <div class="col-sm-4" style="margin-left: 50px">
+      <img src="<?php echo base_url('assets/img/desserts/pudingmangga.jpg')?>" class="card-img-top" alt="...">
+      <h5 class="card-title" style="color:#D42227">Mango Soft Pudding</h5>
+    </div>
+    <table class="table table-sm" style="width: 60%; margin-left: 10px">
+      <tbody>
+        <tr>
+          <td width="30%" class="teks">Kandungan</td>
+          <td width="70%" class="tekss">
+          </td><br>
+        </tr>
+        <tr>
+          <td width="30%" class="teks">Komposisi</td>
+          <td width="70%" class="tekss">Puding lembut dengan aroma dan rasa mangga. </td>
+        </tr>
+        <tr>
+          <td width="30%" class="teks">Harga</td>
+          <td width="70%" class="tekss">
+            <div>
+              <a>Rp 20,000</a>
+              <a href="#" class="message">Pesan</a>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td width="30%" class="teks">Informasi Nilai Gizi</td>
+          <td width="70%" class="tekss">
+            <div class="row">
+              <div>
+                <p style="text-align: center;"><img src="<?php echo base_url('assets/img/calories.png')?>"></p>
+                <p style="margin-top: -10px; font-size: 12px; text-align: center">Kalori</p>
+              </div>
+              <div style="margin-left: 30px">
+                <p style="text-align: center;"><img src="<?php echo base_url('assets/img/protein.png')?>"></p>
+                <p style="margin-top: -10px; font-size: 12px; text-align: center">Protein</p>
+              </div>
+              <div style="margin-left: 40px">
+                <p style="text-align: center;"><img src="<?php echo base_url('assets/img/lemak.png')?>"></p>
+                <p style="margin-top: -10px; font-size: 12px; text-align: center">Lemak</p>
+              </div>
+              <div style="margin-left: 30px">
+                <p style="text-align: center;"><img src="<?php echo base_url('assets/img/karbohidrat.png')?>"></p>
+                <p style="margin-top: -10px; font-size: 12px; text-align: center">Karbohidrat</p>
+              </div>
+              <div style="margin-left: 20px">
+                <p style="text-align: center;"><img src="<?php echo base_url('assets/img/natrium.png')?>"></p>
+                <p style="margin-top: -10px; font-size: 12px; text-align: center">Natrium</p>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
 
+<br><br><br><br><br><br><br><br>
 <section> <!-- ini footer -->
 <footer id="footer" class="clearfix text-center full-grid">
     <div class="bgfooter_l" style="background: url('<?php echo base_url('assets/img/footpat.png')?>') repeat-y scroll left top transparent;"></div>
-    <div class="bgfooter_r" style="background: url('<?php echo base_url('assets/img/footpatr.png')?>') repeat-y scroll right top transparent;"></div>
+    <div class="bgfooter_r" style="background: url('<?php echo base_url('assets/img/footpatr.png')?>') repeat-y scroll left top transparent;"></div>
     <div class="fluidhead clearfix">
         <div class="left grid-3-foot">
             <div class="clearfix">
