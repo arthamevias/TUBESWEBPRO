@@ -1,0 +1,90 @@
+#background{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.kotakbesar{
+	position: relative;
+	width: 389px;
+	left: 40%;
+	margin: 20px 0px 0px 194px;
+	padding: 30px;
+	background: none repeat scroll 0% 0% #FBAB10;
+	overflow: hidden;
+}
+
+.mbamba{
+	position: fixed;
+	bottom: -392px;
+	left: 50%;
+	margin: 0px 0px 0px -450px;
+}
+
+.close{
+ 	position: absolute;
+    right: 10px;
+    top: 10px;
+    display: block;
+    width: 17px;
+    height: 16px;
+    text-indent: -9999px;
+
+}
+
+.text{
+	color: #FFF;
+	font-size: 120%;
+	margin: 0px 0px 5%;
+	text-align: center;
+	font-family: arial;
+}
+
+#uname{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	width: 100%;
+	box-shadow: none;
+	padding: 15px 15px 15px 45px;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+#pw{
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	width: 100%;
+	box-shadow: none;
+	padding: 15px 15px 15px 45px;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.sub{
+	position: relative;
+	background: none repeat scroll 0% 0% #FAFAF6;
+	color: #FBAB10;
+	width: 100%;
+	padding: 5%;
+	margin: 5% 0px 0px;
+	border-radius: 5px;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+	font-size: 120%;
+	font-weight: bold;
+	text-transform: uppercase;
+	word-wrap: break-word;
+	border: medium none;
+	cursor: pointer;
+	font-family: "gothambook",sans-serif;
+}
+
+#register{
+	height: 190px;
+	background: none repeat scroll 0% 0% #F9C537;
+	position: relative;
+	width: 389px;
+	left: 40%;
+	margin: 0px 0px 0px 194px;
+	padding: 30px;
+	overflow: hidden;
+}
+

@@ -1,0 +1,201 @@
+
+.logo{
+	margin-top: -50px; 
+}
+
+#carouselExampleFade{
+      height: 500px;
+      width: 1000px;
+      text-align: center;
+      margin: auto;
+    }
+
+.container{
+      text-align: center;
+      margin: auto;
+    }
+
+ .row{
+ 	margin: auto;
+ }
+
+ .ininavbar{
+ 	margin-left: 180px;
+ }
+
+a{
+	color: red;
+}
+
+.card-img-top{
+	border-radius: 10px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.gambarbelakang{
+	height: 550px;
+	width: 100%;
+	position: absolute;
+}
+
+.rope{
+	margin: auto;
+}
+
+.gambar{
+	border-radius: 20px
+}
+
+.btn {
+	background-color: red;
+	color: white;
+}
+
+#title-cont {
+    text-align: center;
+    margin: 0px 0px 2.5%;
+    text-transform: uppercase;
+}
+
+.rekomendasi {
+    width: 250px;
+    height: 60px;
+    border: 2px dotted #DE8580;
+    background-color:#d6d6c2;
+    margin : auto;
+}
+
+.footer{
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: yellow;
+  color: black;
+  text-align: center;
+}
+
+.bgfooter_l {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    height: 100%;
+    background: url('footpat.png') repeat-y scroll left top transparent;
+    width: 40%;
+    z-index: 0;
+}
+
+.bgfooter_r {
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    height: 100%;
+    background: url('footpatr.png') repeat-y scroll right top transparent;
+    width: 40%;
+    z-index: 0;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0px;
+    content: " ";
+    clear: both;
+    height: 0px;
+}
+
+.grid-3-foot {
+    width: 32.26%;
+    margin-right: 1.6%;
+    padding-top: 15px;
+    padding-bottom: 8px;
+    position: relative;
+    z-index: 1;
+}
+
+#footer .halal {
+    position: absolute;
+    top: -50px;
+    left: 2%;
+}
+
+.left {
+    float: left;
+}
+
+#footer .bottom-menu {
+    width: 80%;
+    margin: 0px;
+    position: relative;
+    left: 14px;
+    font-size: 12px;
+}
+
+#footer p.red {
+    color: #D71921;
+    font-size: 13px;
+}
+
+.grid-3-foot:last-child {
+    margin-right: 0px;
+}
+
+#footer {
+    text-align: left;
+    width: 100%;
+    background: none repeat scroll 0% 0% #FCB915;
+    position: relative;
+    color: #000;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.social {
+    display: inline-block;
+    width: 28px;
+    height: 27px;
+    position: relative;
+    top: -6px;
+}
+
+.fb {
+    background: url('fb.png') no-repeat scroll center top transparent;
+}
+
+.twitter{
+	background: url('tw.png') no-repeat scroll center top transparent;
+}
+
+.youtube{
+	    background: url('yt.png') no-repeat scroll center top transparent;
+}
+
+#kotak-kuning {
+	display: block;
+	width: 80px;
+	height: 30px;
+    background: #FDB813;
+    color: #FFF;
+    text-align: center;
+}
+
+#kotak-merah {
+	margin-top: 10px;
+	display: block;
+	width: 80px;
+	height: 30px;
+    color: #FFF;
+    text-align: center;
+}
+
+
+.tulisan_footer {
+	font-weight: arial;
+	font-size: 14px;
+}
